@@ -5,7 +5,7 @@ public function __construct()
  {
  try {
  	$this->db =
- 	new PDO("mysql:host=localhost;dbname=dbakademik", "root", "");
+ 	new PDO("mysql:host=localhost;dbname=dbakademik", "root", "aubjaya");
  } catch (PDOException $e) {
 	die ("Error " . $e->getMessage());
  }
